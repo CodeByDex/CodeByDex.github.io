@@ -34,6 +34,7 @@ header * {
 section {
     display: flex;
     justify-content: flex-start;
+    padding: 0 1.5rem;
     margin-bottom: 1.5rem;
 }
 
@@ -45,7 +46,7 @@ section section {
     width: 80%;
     display: flex;
     flex-direction: row;
-    align-content: flex-end;
+    align-content: flex-start;
     flex-wrap: wrap;
     justify-content: space-between;
 }
@@ -53,8 +54,6 @@ section section {
 article {
     width: 40%;
     margin-bottom: 1.5rem;
-    /* text-align: center; */
-    text-align: center;
     flex: 1 1 initial;
 }
 
@@ -71,10 +70,26 @@ article * {
 aside {
     width: 20%;
     display: flex;
-    justify-content: flex-end;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
     border-right: 3px solid;
-    padding-right: 1.5rem;
-    margin-right: 1.5rem;
+    padding: 0 1.5rem;
+}
+
+aside * {
+    display: inline-block;
+    text-align: right;
+}
+
+.work-label-box {
+    position: relative;
+    top: -20%;
+    left: 5%;
+    width: fit-content;
+    padding: 1.5rem;
+    padding-right: 6rem;
 }
 
 #ProfilePhoto {
