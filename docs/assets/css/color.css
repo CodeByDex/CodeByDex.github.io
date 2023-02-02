@@ -2,6 +2,10 @@ header {
     /* background-color: aqua; */
 }
 
+img:hover {
+    filter: none;
+}
+
 nav a {
     color: black
 }
@@ -13,4 +17,8 @@ main > section:hover {
 .work-label-box {
     background-color: black;
     color: white;
+}
+
+ #work img {
+    filter: contrast(75%)
 }
