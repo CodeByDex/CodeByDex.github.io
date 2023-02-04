@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-size: 2vw;
+    transition-duration: 1s;
 }
 
 aside {
@@ -42,7 +43,7 @@ section {
 }
 
 a:hover {
-    text-decoration: underline;
+    padding-bottom: 0;
 }
 
 a:active {
@@ -61,14 +62,17 @@ aside * {
 
 nav a {
     text-decoration: none;
-    padding: 1rem;
-    font-size: 1.5rem 1vw;
+    padding: .5rem 0;
+    font-size: 1rem;
     height: 2rem;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-bottom: 5px solid black;
+    height: fit-content;
 }
 
 header * {
     display: inline-block;
+    margin: .5rem .5rem;
 }
 
 header div,
