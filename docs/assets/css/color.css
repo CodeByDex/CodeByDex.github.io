@@ -19,6 +19,7 @@ main > section:hover {
     color: white;
 }
 
- #work img {
+ /* #work  */
+ img {
     filter: contrast(75%)
 }
