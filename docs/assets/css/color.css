@@ -15,7 +15,12 @@
 }
 
 header {
-    /* background-color: aqua; */
+    background-color: var(--color-main);
+}
+
+h1, h2 {
+    color: var(--color-main);
+    /* background-color: var(--color-accent2); */
 }
 
 img:hover {
@@ -29,6 +34,15 @@ a {
 
 main > section:hover {
     box-shadow: 1rem 1px 5px var(--color-accent2);
+}
+
+nav {
+    background: var(--color-main);
+}
+
+nav a {
+    color: var(--color-contrast);
+    border-color: var(--color-contrast);
 }
 
 .work-label-box {
