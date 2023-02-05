@@ -23,17 +23,9 @@ h1, h2 {
     /* background-color: var(--color-accent2); */
 }
 
-img:hover {
-    filter: none;
-}
-
 a {
     color: var(--color-main);
     border-color: var(--color-main);
-}
-
-main > section:hover {
-    box-shadow: 1rem 1px 5px var(--color-accent2);
 }
 
 nav {
@@ -50,7 +42,3 @@ nav a {
     color: var(--color-contrast);
 }
 
- /* #work  */
- .work-image {
-    filter: contrast(50%)
-}
