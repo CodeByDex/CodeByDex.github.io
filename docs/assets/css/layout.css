@@ -32,6 +32,7 @@ img {
 
 main {
     padding: 0 5%;
+    padding-top: 1rem;
 }
 
 section {
@@ -63,7 +64,7 @@ nav a,
     border-bottom-style: solid;
     height: fit-content;
     text-align: center;
-    width: fit-content; 
+    width: fit-content;
     display: inline-block;
     margin: 0.5rem 0.5rem;
 }
@@ -87,11 +88,11 @@ header nav {
     justify-content: flex-end;
 }
 
-main > section {
+main>section {
     padding: .5rem;
 }
 
-section > section {
+section>section {
     width: 80%;
     display: flex;
     flex-direction: row;
@@ -102,11 +103,19 @@ section > section {
 
 .work-label-box {
     position: relative;
-    top: -20%;
-    left: 5%;
-    width: 25%;
-    padding: 1.5rem;
-    padding-right: 6rem;
+    bottom: 3rem;
+    left: 3px;
+    width: fit-content;
+    padding: .25rem;
+    white-space: nowrap;
+}
+
+.work-label-box h3 {
+    font-size: 1rem;
+}
+
+.work-label-box p {
+    font-size: .5rem;
 }
 
 #ProfilePhoto {
@@ -118,12 +127,10 @@ section > section {
     background-repeat: no-repeat;
     background-position: center;
     height: 10rem;
-    margin-bottom: 1rem;
     width: 100%;
 }
 
 h2 {
-    /* display: block; */
     position: relative;
     left: 70%;
     top: 7rem;
@@ -132,14 +139,19 @@ h2 {
 }
 
 #Work article {
-    margin: .25rem;    
+    margin: 0rem;
     width: 40%;
-    max-width: 300px;
-    margin-bottom: 1.5rem;
-    flex: 1 1 initial;
+    height: fit-content;
+    flex: 0 1 auto;
+}
+
+#Work img {
+    border-width: 3px;
+    border-style: solid;
 }
 
 #Work article:first-of-type {
     width: 100%;
     max-width: 100%;
+    flex: 0 1 100%;
 }
