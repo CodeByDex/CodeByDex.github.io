@@ -60,7 +60,8 @@ aside * {
     text-align: right;
 }
 
-a {
+nav a,
+#ContactMe a {
     text-decoration: none;
     padding: .5rem 0;
     font-size: 1rem;
