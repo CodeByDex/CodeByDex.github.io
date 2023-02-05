@@ -3,24 +3,41 @@
     padding: 0;
 }
 
+:root {
+    --page-side-spacing: 2rem;
+    --element-spacing-thin: 0.5rem;
+    --element-spacing-med: 1rem;
+    --border-width: 5px;
+    --element-padding-med: 1rem;
+    --element-padding-thin: 0.5rem;
+}
+
 aside {
-    width: 15%;
-    max-width: 15%;
+    width: 20%;
+    max-width: 20%;
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
-    gap: 1.5rem;
-    border-right-width: 3px;
+    gap: var(--element-spacing-thin);
+    border-right-width: var(--border-width);
     border-right-style: solid;
-    padding: 0 .5rem;
+    padding: 0 var(--element-spacing-thin);
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    /* flex-wrap: wrap; */
-    padding: .25rem 0;
+    padding: var(--element-spacing-thin) 0;
+}
+
+h2 {
+    position: relative;
+    float: right;
+    top: 7rem;
+    width: fit-content;
+    padding: var(--element-padding-thin);
+    margin-right: var(--page-side-spacing);
 }
 
 img {
@@ -29,21 +46,22 @@ img {
 }
 
 main {
-    padding: 0 5%;
-    padding-top: 1rem;
+    padding: 0 var(--page-side-spacing);
+    padding-top: var(--element-padding-med);
 }
 
 nav {
     display: flex;
     justify-content: flex-end;
     flex-wrap: wrap;
+    padding-right: var(--page-side-spacing);
 }
 
 section {
     display: flex;
     justify-content: flex-start;
-    padding: 0 1.5rem;
-    margin-bottom: 1.5rem;
+    padding: var(--element-spacing-med) var(--element-padding-med);
+    margin-bottom: var(--element-spacing-med);
 }
 
 aside * {
@@ -51,29 +69,10 @@ aside * {
     text-align: right;
 }
 
-.link-text {
-    text-decoration: none;
-    padding: .5rem 0;
-    height: 2rem;
-    border-bottom-width: 5px;
-    border-bottom-style: solid;
-    height: fit-content;
-    width: fit-content;
-    display: inline-block;
-    margin: 0.5rem 0.5rem;
-}
-
-header * {
-    margin: .5rem .5rem;
-}
-
 header h1 {
-    padding-left: 3rem
-}
-
-
-main>section {
-    padding: .5rem;
+    padding: var(--element-padding-med);
+    padding-left: var(--page-side-spacing);
+    margin: 0 0;
 }
 
 section>section {
@@ -85,12 +84,24 @@ section>section {
     justify-content: space-between;
 }
 
+.link-text {
+    text-decoration: none;
+    padding: var(--element-padding-thin) 0;
+    height: 2rem;
+    border-bottom-width: var(--border-width);
+    border-bottom-style: solid;
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    margin: var(--element-spacing-thin) var(--element-spacing-thin);
+}
+
 .work-label-box {
     position: relative;
-    bottom: 3rem;
+    bottom: 4rem;
     left: 3px;
     width: fit-content;
-    padding: .25rem;
+    padding: var(--element-padding-thin);
 }
 
 #ProfilePhoto {
@@ -105,28 +116,19 @@ section>section {
     width: 100%;
 }
 
-h2 {
-    position: relative;
-    left: 70%;
-    top: 7rem;
-    width: fit-content;
-    padding: .5rem;
-}
-
 #Work article {
-    margin: 0rem;
-    width: 40%;
-    height: fit-content;
-    flex: 0 1 auto;
-}
-
-#Work img {
-    border-width: 3px;
-    border-style: solid;
+    margin: 0 var(--element-padding-thin);
+    width: 45%;
+    max-width: 50%;
+    flex: 1 1 auto;
 }
 
 #Work article:first-of-type {
     width: 100%;
     max-width: 100%;
-    flex: 0 1 100%;
+}
+
+#Work img {
+    border-width: var(--border-width);
+    border-style: solid;
 }
