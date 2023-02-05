@@ -96,14 +96,14 @@ section>section {
 
 .work-label-box {
     position: relative;
-    bottom: 4rem;
+    bottom: 6rem;
     left: 3px;
     width: fit-content;
     padding: var(--element-padding-thin);
     /* this negative margin is needed to offset the 
     space being taken up by the object even after it
     is moved */
-    margin-bottom: -2rem;
+    margin-bottom: -3rem;
 }
 
 #ProfilePhoto {
