@@ -11,6 +11,7 @@
 * {
     color: var(--color-main);
     background-color: var(--color-contrast);
+    border-color: var(--color-accent1);
 }
 
 header {
@@ -23,10 +24,11 @@ img:hover {
 
 a {
     color: var(--color-main);
+    border-color: var(--color-main);
 }
 
 main > section:hover {
-    box-shadow: 1rem 1px 5px var(--color-main);
+    box-shadow: 1rem 1px 5px var(--color-accent2);
 }
 
 .work-label-box {
