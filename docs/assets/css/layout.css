@@ -60,7 +60,7 @@ aside * {
     text-align: right;
 }
 
-nav a {
+a {
     text-decoration: none;
     padding: .5rem 0;
     font-size: 1rem;
@@ -68,6 +68,10 @@ nav a {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-bottom: 5px solid black;
     height: fit-content;
+    text-align: center;
+    width: fit-content; 
+    display: inline-block;
+    margin: 0.5rem 0.5rem;
 }
 
 header * {
