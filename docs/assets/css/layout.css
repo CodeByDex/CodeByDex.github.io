@@ -113,7 +113,7 @@ section>section {
 #ContactMe article
 {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 #ProfilePhoto {
@@ -143,4 +143,42 @@ section>section {
 #Work img {
     border-width: var(--border-width);
     border-style: solid;
+}
+
+@media screen and (width < 600px) {
+    aside {
+        flex-direction: row;
+        width: 100%;
+        max-width: 100%;
+        border-bottom-width: var(--border-width);
+        border-bottom-style: solid;
+        border-right-style: none;
+        padding: var(--element-spacing-thin) 0;
+    }
+
+    header {
+        flex-direction: column;
+    }
+    
+    section {
+        flex-direction: column;
+    }
+
+    section>section {
+        width: 100%;
+        padding: var(--element-padding-thin) 0;
+    }
+
+    #ContactMe article
+    {
+        flex-direction: column;
+    }
+
+    #Work article {
+        margin: var(--element-padding-thin) 0;
+        width: 80%;
+        max-width: 80%;
+        flex: 1 1 auto;
+    }
+    
 }
