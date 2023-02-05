@@ -2,6 +2,10 @@
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+aside h3{
+    font-size: 2rem;
+}
+
 header {
     white-space: nowrap;
 }
