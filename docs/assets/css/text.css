@@ -1,0 +1,24 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    white-space: nowrap;
+}
+
+nav a,
+#ContactMe a {
+    font-size: 1rem;
+}
+
+.work-lable-box {
+    white-space: nowrap;
+}
+
+.work-label-box h3 {
+    font-size: 1rem;
+}
+.work-label-box p {
+    font-size: .5rem;
+}
