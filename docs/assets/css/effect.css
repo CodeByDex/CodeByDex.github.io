@@ -3,16 +3,16 @@
     transition-duration: 1s;
 }
 
-a:hover {
+main > section:hover {
+    box-shadow: 1rem 1px 5px var(--color-accent2);
+}
+
+.link-text:hover {
     padding-bottom: 0;
 }
 
-a:active {
+.link-text:active {
     font-style: italic;
-}
-
-main > section:hover {
-    box-shadow: 1rem 1px 5px var(--color-accent2);
 }
 
 .work-image {
