@@ -1,3 +1,18 @@
+:root {
+    /* 
+        Color Palette from: https://colorhunt.co/palette/03001c301e675b8fb9b6eada
+    */
+    --color-main: #03001c;
+    --color-contrast: #B6EADA;
+    --color-accent1: #5B8FB9;
+    --color-accent2: #301E67;
+}
+
+* {
+    color: var(--color-main);
+    background-color: var(--color-contrast);
+}
+
 header {
     /* background-color: aqua; */
 }
@@ -6,17 +21,17 @@ img:hover {
     filter: none;
 }
 
-nav a {
-    color: black
+a {
+    color: var(--color-main);
 }
 
 main > section:hover {
-    box-shadow: 1rem 1px 5px black;
+    box-shadow: 1rem 1px 5px var(--color-main);
 }
 
 .work-label-box {
-    background-color: black;
-    color: white;
+    background-color: var(--color-main);
+    color: var(--color-contrast);
 }
 
  /* #work  */
