@@ -46,23 +46,15 @@ section {
     margin-bottom: 1.5rem;
 }
 
-
-article * {
-    display: block;
-    width: 100%;
-}
-
 aside * {
     display: inline-block;
     text-align: right;
 }
 
-nav a,
-#ContactMe a {
+.link-text {
     text-decoration: none;
     padding: .5rem 0;
     height: 2rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     border-bottom-width: 5px;
     border-bottom-style: solid;
     height: fit-content;

@@ -1,9 +1,8 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 header {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     white-space: nowrap;
 }
 
@@ -21,4 +20,8 @@ nav a,
 }
 .work-label-box p {
     font-size: .5rem;
+}
+
+#AboutMe p {
+    font-family: 'Times New Roman', Times, serif;
 }
