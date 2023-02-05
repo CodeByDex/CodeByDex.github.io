@@ -51,6 +51,6 @@ nav a {
 }
 
  /* #work  */
- img {
-    filter: contrast(75%)
+ .work-image {
+    filter: contrast(50%)
 }
