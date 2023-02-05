@@ -12,6 +12,10 @@
     --element-padding-thin: 0.5rem;
 }
 
+article {
+    width: 100%;
+}
+
 aside {
     width: 20%;
     max-width: 20%;
@@ -104,6 +108,12 @@ section>section {
     space being taken up by the object even after it
     is moved */
     margin-bottom: -3rem;
+}
+
+#ContactMe article
+{
+    display: flex;
+    justify-content: space-between;
 }
 
 #ProfilePhoto {
