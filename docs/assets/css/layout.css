@@ -132,14 +132,13 @@ section>section {
 
 #Work article {
     margin: 0 var(--element-padding-thin);
-    width: 45%;
-    max-width: 50%;
-    flex: 1 1 auto;
+    width: calc(50% - (2*var(--element-spacing-thin)));
+    max-width: calc(50% - (2*var(--element-spacing-thin)));
 }
 
 #Work article:first-of-type {
-    width: 100%;
-    max-width: 100%;
+    width: calc(100% - (2*var(--element-spacing-thin)));
+    max-width: calc(100% - (2*var(--element-spacing-thin)));
 }
 
 #Work img {
