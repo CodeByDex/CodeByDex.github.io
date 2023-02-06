@@ -109,6 +109,10 @@ section>section {
     margin-bottom: -3rem;
 }
 
+#AboutMe p {
+    margin-bottom: 1rem;
+}
+
 #ContactMe article {
     display: flex;
     justify-content: space-around;
