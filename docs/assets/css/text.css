@@ -16,19 +16,19 @@ nav a,
     font-size: 1rem;
 }
 
-.work-lable-box {
-    white-space: nowrap;
-}
-
 .work-label-box h3 {
     font-size: 1.5rem;
+    white-space: nowrap;
 }
 
 .work-label-box p {
     font-weight: lighter;
 }
 
-
 #AboutMe p {
     font-family: 'Times New Roman', Times, serif;
+}
+
+#ContactMe section {
+    white-space: nowrap;
 }
