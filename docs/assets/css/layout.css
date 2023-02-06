@@ -87,7 +87,6 @@ section>section {
 }
 
 .link-text {
-    text-decoration: none;
     padding: var(--element-padding-thin) 0;
     height: 2rem;
     border-bottom-width: var(--border-width);

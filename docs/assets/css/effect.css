@@ -27,3 +27,7 @@ main > section:hover {
 .work-image:hover {
     filter: none;
 }
+
+a:hover img {
+    filter: none;
+}
