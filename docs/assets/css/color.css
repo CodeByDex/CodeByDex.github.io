@@ -6,10 +6,17 @@
     --color-contrast: #B6EADA;
     --color-accent1: #5B8FB9;
     --color-accent2: #301E67;
+
+    /*
+        Good Contrasts
+        Main & Contrast
+        Accent2 & Contrast
+        Main & Accent 1
+    */
 }
 
 * {
-    background-color: var(--color-accent1);
+    background-color: var(--color-contrast);
     color: var(--color-accent2);
 }
 
@@ -20,7 +27,7 @@ header {
 h1,
 h2 {
     color: var(--color-main);
-    background-color: var(--color-contrast);
+    background-color: var(--color-accent1);
 }
 
 aside {
@@ -37,13 +44,13 @@ header div {
 }
 
 nav a {
-    color: var(--color-contrast);
-    border-color: var(--color-contrast);
+    color: var(--color-accent1);
+    border-color: var(--color-accent1);
 }
 
 .work-label-box {
-    background-color: var(--color-contrast);
     color: var(--color-main);
+    background-color: var(--color-accent1);
 }
 
 .work-label-box * {
@@ -52,5 +59,5 @@ nav a {
 }
 
 #Work img {
-    border-color: var(--color-contrast);
+    border-color: var(--color-accent1);
 }
