@@ -3,6 +3,11 @@
     transition-duration: 1s;
 }
 
+a:focus {
+    border-style: double;
+    border-width: var(--border-width);
+}
+
 main > section:hover {
     box-shadow: 1rem 1px 5px var(--color-accent2);
 }
