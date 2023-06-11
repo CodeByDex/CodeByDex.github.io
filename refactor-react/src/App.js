@@ -1,22 +1,31 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import About from "./components/About.js";
+import Projects from "./components/Projects.js";
+import Navbar from "./Navbar.js";
 
 function App() {
+
+  const [currentSection, setSection] = useState("About");
+
+  function renderSection(curSection) {
+    switch (curSection) {
+      case "About":
+        return <About />
+      case "Projects":
+        return <Projects />
+      default:
+        return <div>Not Found</div>
+    }
+  }
+
+  const handleSectionChange = (page) => setSection(page);
+
   return (
     <div className="App">
+      <Navbar handleSectionChange={handleSectionChange}/>
       <main className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        {renderSection(currentSection)}
       </main>
     </div>
   );
