@@ -3,6 +3,7 @@ import './App.css';
 import About from "./components/About.js";
 import Projects from "./components/Projects.js";
 import Navbar from "./Navbar.js";
+import Footer from "./Footer.js";
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
       <main className="App-header">
         {renderSection(currentSection)}
       </main>
+      <Footer />
     </div>
   );
 }
