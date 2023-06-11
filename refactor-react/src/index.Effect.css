@@ -1,0 +1,13 @@
+* {
+    transition-duration: 1s;
+}
+
+a:focus {
+    border-style: double;
+    border-width: var(--border-width);
+}
+
+
+a:hover img {
+    filter: none;
+}

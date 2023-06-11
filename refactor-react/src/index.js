@@ -5,6 +5,7 @@ import './index.css';
 import "./index.Color.css";
 import "./index.Layout.css";
 import "./index.Text.css";
+import "./index.Effect.css";
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Navbar from "./Navbar";

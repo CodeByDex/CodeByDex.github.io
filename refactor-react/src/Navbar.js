@@ -1,6 +1,7 @@
 import "./Navbar.Color.css";
 import "./Navbar.Layout.css";
 import "./Navbar.Text.css"
+import "./Navbar.Effect.css";
 
 function Navbar() {
     return (
