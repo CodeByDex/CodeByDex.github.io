@@ -1,0 +1,35 @@
+
+header {
+    justify-content: space-between;
+    padding: var(--element-spacing-thin) 0;
+}
+
+nav {
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    padding-right: var(--page-side-spacing);
+}
+
+header h1 {
+    padding: var(--element-padding-med);
+    padding-left: var(--page-side-spacing);
+    margin: 0 0;
+}
+
+.link-text {
+    padding: var(--element-padding-thin) 0;
+    height: 2rem;
+    border-bottom-width: var(--border-width);
+    border-bottom-style: solid;
+    height: fit-content;
+    width: fit-content;
+    display: inline-block;
+    margin: var(--element-spacing-thin) var(--element-spacing-thin);
+}
+
+
+@media screen and (width < 600px) {
+    header {
+        flex-direction: column;
+    }
+}

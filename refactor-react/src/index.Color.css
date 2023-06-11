@@ -1,0 +1,47 @@
+:root {
+    /* 
+        Color Palette from: https://colorhunt.co/palette/03001c301e675b8fb9b6eada
+    */
+    --color-main: #03001c;
+    --color-contrast: #B6EADA;
+    --color-accent1: #5B8FB9;
+    --color-accent2: #301E67;
+
+    /*
+        Good Contrasts
+        Main & Contrast
+        Accent2 & Contrast
+        Main & Accent 1
+    */
+}
+
+/* * {
+    background-color: var(--color-contrast);
+    color: var(--color-accent2);
+}
+
+
+
+h1,
+h2 {
+    color: var(--color-main);
+    background-color: var(--color-accent1);
+}
+
+aside {
+    border-color: var(--color-accent2);
+}
+
+.work-label-box {
+    color: var(--color-main);
+    background-color: var(--color-accent1);
+}
+
+.work-label-box * {
+    background-color: inherit;
+    color: inherit;
+}
+
+#Work img {
+    border-color: var(--color-accent1);
+} */
