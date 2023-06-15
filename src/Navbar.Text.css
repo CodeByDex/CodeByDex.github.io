@@ -1,0 +1,10 @@
+
+
+header {
+    white-space: nowrap;
+}
+
+nav a,
+#ContactMe a {
+    font-size: 1rem;
+}

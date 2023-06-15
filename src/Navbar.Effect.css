@@ -1,0 +1,7 @@
+.link-text:hover {
+    padding-bottom: 0;
+}
+
+.link-text:active {
+    font-style: italic;
+}

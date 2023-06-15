@@ -15,14 +15,12 @@
     */
 }
 
-* {
+/* * {
     background-color: var(--color-contrast);
     color: var(--color-accent2);
 }
 
-header {
-    background-color: var(--color-main);
-}
+
 
 h1,
 h2 {
@@ -32,20 +30,6 @@ h2 {
 
 aside {
     border-color: var(--color-accent2);
-}
-
-nav {
-    background: var(--color-main);
-}
-
-header div {
-    color: var(--color-main);
-    background-color: var(--color-contrast);
-}
-
-nav a {
-    color: var(--color-accent1);
-    border-color: var(--color-accent1);
 }
 
 .work-label-box {
@@ -60,4 +44,4 @@ nav a {
 
 #Work img {
     border-color: var(--color-accent1);
-}
+} */

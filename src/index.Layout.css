@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --page-side-spacing: 2rem;
+    --element-spacing-thin: 0.5rem;
+    --element-spacing-med: 1rem;
+    --border-width: 5px;
+    --element-padding-med: 1rem;
+    --element-padding-thin: 0.5rem;
+}
+
+.flex {
+    display: flex;
+}
+
+
+@media screen and (width < 600px) {}
